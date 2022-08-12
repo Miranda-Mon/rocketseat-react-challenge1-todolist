@@ -1,0 +1,19 @@
+.row {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  border: 2px;
+  border-color: aliceblue;
+  border-radius: 4px;
+}
+.checkbox {
+  padding: 2px;
+  margin-right: 5px;
+}
+label {
+  text-align: left;
+}

@@ -1,0 +1,69 @@
+:root {
+  --white: #fff;
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+  --purple-main: #8284fa;
+  --purple-dark: #5e60ce;
+  --blue-main: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --danger: #e25858;
+  --background: #454545;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+}
+main {
+  color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: -1.25rem 0rem;
+}
+
+main .newTask {
+  display: flex;
+  margin-top: -1rem;
+  padding: 1rem;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  max-width: 925px;
+  width: 90%;
+}
+main div textarea {
+  resize: none;
+  border-radius: 8px;
+  height: 2.5rem;
+  width: 90%;
+}
+
+main div button {
+  resize: none;
+  border-radius: 8px;
+  height: 2.5rem;
+  width: 10%;
+}
+.labelsCount {
+  margin-top: -1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 90%;
+  max-width: 925px;
+}
